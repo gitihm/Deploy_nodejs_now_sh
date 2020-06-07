@@ -1,0 +1,26 @@
+{
+  "name": "deplot_now_sh",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gitihm/Deploy_nodejs_on_Zeits_Now_Platform-.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gitihm/Deploy_nodejs_on_Zeits_Now_Platform-/issues"
+  },
+  "homepage": "https://github.com/gitihm/Deploy_nodejs_on_Zeits_Now_Platform-#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "node-fetch": "^2.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
