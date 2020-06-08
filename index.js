@@ -3,16 +3,9 @@ const app = express();
 const port = 4000;
 
 app.get("/", (req, res) => {
-  res.json({message : "OK"})
+  res.json({stauts : true , payload : {username : "aa" , role  : "admin"}})
 });
 
-app.post("/", (req, res) => {
-  if(req.body.name === "air"){
-    res.json({status : true})
-  }else{
-    res.json({status : false})
-  }
-  
-});
+
 
 const server = app.listen(port);
